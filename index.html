@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<body style="background-color: bisque;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning-subtle sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo 1.png" alt="" style="height: 50px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact
+                </a>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Vaporeon.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Sunset Drawing.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Scarecrow Landscape.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end carousel -->
+
+      <h2 class="text-center pd-5 mt-5 mb-5">Gallery</h2>
+
+      <div class="row justify-content-center align-items-center">
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card mx-auto" style="width: 18rem;">
+
+                <img src="images/Drawing 1.jpeg" class="card-img-top" alt="..." style="height: 405px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Card title</h5>
+
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <a href="#" class="btn btn-primary">Click me</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card mx-auto" style="width: 18rem;">
+
+                <img src="images/Drawing 2.jpeg" class="card-img-top" alt="..." style="height: 405px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Card title</h5>
+
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <a href="#" class="btn btn-primary">Click me</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card mx-auto" style="width: 18rem;">
+
+                <img src="images/Drawing 3.jpeg" class="card-img-top" alt="..." style="height: 405px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Card title</h5>
+
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <a href="#" class="btn btn-primary">Click me</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card mx-auto" style="width: 18rem;">
+
+                <img src="images/Drawing 4.jpeg" class="card-img-top" alt="..." style="height: 405px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Card title</h5>
+
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <a href="#" class="btn btn-primary">Click me</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+      </div>
+
+      <h2 class="text-center pd-5 mt-5 mb-5">Portfolio</h2>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ujcUqZGmTho?si=3kdrnRmxrN4N5nUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q4KHPC7igQM?si=OZU_da2-nw7sVoks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+
+      <h2 class="text-center pd-5 mt-5 mb-5">About</h2>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+                <p>Greetings, art enthusiasts and curious minds! I am Genesis, an artist driven by an insatiable passion for creativity and expression. Welcome to my world, where I invite you to embark on a visual journey through the tapestry of my artistic endeavors.
+                    Art, to me, is not just a medium of expression; it's the very essence of my being. From the tender strokes of my brush to the digital realms of my imagination, I channel my emotions, experiences, and perceptions into every piece I create.
+                    My art is a reflection of the world as I see it—a realm where colors dance, stories unfold, and emotions find their voice. It's a testament to the power of human creativity, a tool to provoke thought, evoke emotion, and inspire change.
+                    In this portfolio, you will witness the evolution of my craft, from early explorations to the present day. Through paintings, illustrations, and mixed-media creations, I aim to transcend boundaries and connect with the hearts and minds of those who encounter my work.
+                    Thank you for joining me on this artistic journey. I invite you to explore, question, and interpret as you navigate through the pages of my portfolio. May my art resonate with your soul and kindle the flames of your own creativity</p>
+      
+
+        <h2 class="text-center pd-5 mt-5 mb-5">Contact</h2>
+       <div class="container">
+        <div class="row">
+            <div class="col">
+                <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=chino%20roces%20makati+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+
+            </div>
+            <div class="col">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+       </div>
+    
+
+
+     
+<footer>
+   <p class="text-center bg-warning-subtle" style="height: 100px;">
+        @ Genesis Lim 2023
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    </p>
+
+</footer>
+    </div>
+      <script 
+        src="https://kit.fontawesome.com/d9f65e7e7e.js" 
+        crossorigin="anonymous">
+    </script>
+    </body>
+</html>
